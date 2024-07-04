@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Volle Höhe des Viewports für zentrierten Inhalt */
+}
+iframe {
+    border: none; /* Rahmen entfernen */
+}

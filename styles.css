@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(BackgroundHome.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+  
+  
+  
+  
+
+  .hero {
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+  }
+
+  .hero h1 {
+    font-size: 1em;
+    font-family: 'Helvetica', sans-serif; /* Helvetica als Schriftart setzen */
+    font-weight: 100; /* Dünner machen */
+    margin-bottom: 0;
+  }
+  
+  nav {
+    position: relative;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiassed;
+    overflow: hidden;
+    background-color: #4169e1;
+  }
+  
+  
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 40px 0 0;
+    
+    
+  }
+  
+  .nav-links a {
+    color: rgba(255, 215, 0, 0.8); /* Golden mit Transparenz */
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 2px;
+    font-weight: 600;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffd700;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .main h1 {
+    text-align: center; /* Zentriert den Text im Hauptbereich */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+  }
+
+  .main p {
+    margin-bottom: 5px;
+    
+  }
+
+  .Eröffnungsspiel {
+    font-size: 1.1em;
+    font-family: 'Helvetica', sans-serif; /* Helvetica als Schriftart setzen */
+    font-weight: 520; /* Dünner machen */
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
